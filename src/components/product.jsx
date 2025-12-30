@@ -1,7 +1,7 @@
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import M8 from "./img/m8.png";
+import M8 from "./img/M8.png";
 import M from "./img/M.webp";
 
 
