@@ -15,7 +15,7 @@ import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import Badge, { badgeClasses } from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCartOutlined';
-import Bmw4 from "./components/img/Bmw4.jpg"
+import Bmw4 from "./components/img/bmw4.jpg"
 
  
 
