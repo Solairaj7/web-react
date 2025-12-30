@@ -3,8 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import M8 from "./img/m8.png";
 import M from "./img/M.webp";
-import Bmw6 from "./img/Bmw6.jpg"
-import Bmw1 from "./img/Bmw1.jpg"
+
 
 
  
