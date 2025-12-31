@@ -6,17 +6,13 @@ body {
   color: #333;
 }
 
-@keyframes backgroundShift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
 
 .hmain {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   padding: 32px;
   border-radius: 20px;
-  margin: 20px;
+
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   animation: fadeInUp 1s ease-out;
 }
@@ -62,36 +58,15 @@ button:hover{
   -webkit-background-clip: text;
   background-clip: text;
   margin-left: 20px;
+  margin-top: 15px;
   text-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
   animation: glow 2s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
-  from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
-  to { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(102, 126, 234, 0.5); }
-}
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes slideInFromBottom {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+
+
 .car {
   position: relative;
   height: 60vh;

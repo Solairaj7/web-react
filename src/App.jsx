@@ -39,7 +39,7 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>📍 Chennai, India</p>
+          <p>📍 Tokyo, Japan</p>
           <p>📞 +91 98765 43210</p>
           <p>✉️ info@zoroluxurycars.com</p>
           <p>🕒 Mon-Fri: 9AM-6PM</p>
