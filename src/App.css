@@ -15,7 +15,7 @@ body {
   
 }
 .htop{
- background: #000000;
+ background: #e8e5e5;
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -26,7 +26,7 @@ body {
 }
 button{
   border-radius: 15px;
-  background: #000000;
+  background: #382e2e;
   color: #ffffff;
 }
 button:hover{
@@ -109,27 +109,7 @@ button:hover{
   margin: 32px 0;
 }
 
-/* .Acars {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
-  justify-content: center;
-  align-items: center;
-  margin: 32px 0;
-}
 
-.Acars .m8 {
-  max-width: 500px;
-  padding: 16px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.Acars .m8 p {
-  margin: 16px 0;
-  line-height: 1.6;
-} */
 .cart{
   margin-left: 15px;
 }
@@ -193,7 +173,6 @@ button:hover{
 }
 .cus-main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
@@ -247,64 +226,65 @@ button:hover{
   margin-top: 15px;
   margin-left: 15px;
 }
-/* Cart specific styles */
-/* .cart-container {
+/* Footer styles */
+.footer {
+  background: linear-gradient(135deg, #f0f0f4 0%, #0b0b0b 100%);
+  color: #0c0b0b;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.cart-items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  width: 100%;
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
 }
 
-.cart-item {
-  width: 300px;
-  margin: 10px;
-  transition: transform 0.2s;
+.footer-section h3, .footer-section h4 {
+  margin-bottom: 15px;
+  color: #ffffff;
 }
 
-.cart-item:hover {
-  transform: translateY(-5px);
+.footer-section ul {
+  list-style: none;
+  padding: 0;
 }
 
-.cart-image {
-  height: 200px;
-  object-fit: cover;
+.footer-section ul li {
+  margin-bottom: 10px;
 }
 
-.quantity-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
-.quantity {
-  font-weight: bold;
-  font-size: 18px;
-  min-width: 30px;
+.footer-section ul li a:hover {
+  color: #cccccc;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-bottom {
   text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #333333;
+  margin-top: 20px;
 }
 
-.cart-total {
-  margin-top: 30px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.cart-total h3 {
+.footer-bottom p {
   margin: 0;
-  color: #333;
+  color: #cccccc;
 }
- */

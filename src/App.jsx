@@ -17,6 +17,36 @@ import Badge, { badgeClasses } from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Bmw4 from "./components/img/bmw4.jpg"
 
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-section">
+          <h3>ZORO Luxury Cars</h3>
+          <p>Your premier destination for luxury automobiles.</p>
+        </div>
+        <div className="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/product">Products</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <div className="footer-section">
+          <h4>Contact Info</h4>
+          <p>Email: info@zoroluxurycars.com</p>
+          <p>Phone: +1 (555) 123-4567</p>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>&copy; 2024 ZORO Luxury Cars. All rights reserved.</p>
+      </div>
+    </footer>
+  );
+}
+
  
 
 function App() {
@@ -74,6 +104,7 @@ function App() {
         <Route path="/cart" element={<Carts cart={cart} setCart={setCart} />} />
 
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
