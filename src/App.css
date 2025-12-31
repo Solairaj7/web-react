@@ -2,9 +2,9 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
- 
+  background-color: #ffffff;
+  color: #000000;
+
 }
 
 .hmain {
@@ -15,22 +15,23 @@ body {
   
 }
 .htop{
- background: linear-gradient(135deg, #e8e9ec 0%, #121212 100%);
+ background: #000000;
  display: flex;
  justify-content: space-between;
  align-items: center;
  position: fixed;
   width: 100%;
-  height: 70px; 
+  height: 70px;
    z-index: 1000;
 }
 button{
   border-radius: 15px;
-  background: linear-gradient(135deg, #121213 0%, #f0eef2 100%);
+  background: #000000;
+  color: #ffffff;
 }
 button:hover{
-  background-color: #764ba2;
-  color: aliceblue;
+  background-color: #333333;
+  color: #ffffff;
 }
 .hbuttons{
   display: flex;
@@ -46,7 +47,7 @@ button:hover{
 }
 
 .brand {
-  background-color: #030101;
+  background-color: #ffffff;
   background-size: cover;
   font-family: Impact, sans-serif;
   font-size: 50px;
@@ -184,11 +185,11 @@ button:hover{
 }
 
 .abt1 {
-  color: #fff;
+  color: #000000;
   font-size: 25pd;
   font-weight: 700;
   margin-bottom: 40px;
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .cus-main {
   display: grid;
@@ -214,8 +215,8 @@ button:hover{
   margin-top: 55px;
 }
 .cus {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 30px;
 
@@ -227,14 +228,14 @@ button:hover{
   margin-top: 25px;
 }
 .cus1 strong {
-  color: #f0f1f5;
+  color: #ffffff;
   font-size: 1.1rem;
   display: block;
   margin-bottom: 5px;
 }
 
 .cus1 span {
-  color: #e0e0e0;
+  color: #ffffff;
   font-size: 0.9rem;
   opacity: 0.8;
 }
