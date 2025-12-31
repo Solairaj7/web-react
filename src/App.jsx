@@ -23,25 +23,39 @@ function Footer() {
       <div className="footer-content">
         <div className="footer-section">
           <h3>ZORO Luxury Cars</h3>
-          <p>Your premier destination for luxury automobiles.</p>
+          <p>The Ultimate Driving Machine</p>
+          <p>Experience unparalleled performance and luxury with ZORO.</p>
+          <p>Discover the latest models and innovations.</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/product">Products</a></li>
-            <li><a href="/contact">Contact</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/product">Products</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/cart">Cart</Link></li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Contact Info</h4>
-          <p>Email: info@zoroluxurycars.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
+          <p>📍 Chennai, India</p>
+          <p>📞 +91 98765 43210</p>
+          <p>✉️ info@zoroluxurycars.com</p>
+          <p>🕒 Mon-Fri: 9AM-6PM</p>
+        </div>
+        <div className="footer-section">
+          <h4>Follow Us</h4>
+          <div className="social-links">
+            <a href="#" className="social-link">Facebook</a>
+            <a href="#" className="social-link">Instagram</a>
+            <a href="#" className="social-link">Twitter</a>
+            <a href="#" className="social-link">YouTube</a>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 ZORO Luxury Cars. All rights reserved.</p>
+        <p>&copy; 2024 ZORO Luxury Cars. All rights reserved. | Privacy Policy | Terms of Service</p>
       </div>
     </footer>
   );

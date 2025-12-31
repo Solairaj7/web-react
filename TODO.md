@@ -1,7 +1,3 @@
-- [x] Update the body background to white.
-- [x] Change the header gradient to black.
-- [x] Update button styles to black backgrounds with white text.
-- [x] Change text colors to black for better contrast.
-- [x] Update card backgrounds to white with black borders.
-- [x] Adjust gradients in sections like home and about to use black and white.
-- [x] Ensure hover effects and animations fit the new scheme.
+- [x] Update web/src/App.jsx to replace the simple Footer component with the detailed footer from web2, customized for ZORO
+- [x] Update web/src/App.css to add advanced animations (fadeInUp, slideInFromBottom, glow, etc.) and footer styles from web2
+- [x] Test the changes to ensure animations and footer work correctly
